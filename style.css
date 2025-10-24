@@ -1,0 +1,136 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 24px 215px;
+  background-color: white;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+img[src="./img/WebStudio.png"] {
+  display: flex;
+  width: 145px;
+  height: auto;
+}
+
+.contact {
+  display: flex;
+  gap: 50px;
+}
+.email {
+  display: flex;
+  gap: 50px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #2f303a;
+}
+.main-title {
+  color: white;
+  font-size: 65px;
+}
+
+.main-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 25px 40px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+h3 + p {
+  opacity: 0.6;
+  margin: 0 0 20px 0;
+  font-size: 16px;
+}
+
+section + h3 {
+  margin: 20px 0px 10px 0;
+  font-size: 28px;
+}
+
+.second-class {
+  height: 60vh;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.pair {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.third-class > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.third-class img {
+  margin-left: 53px;
+}
+
+.third-class {
+  height: 70vh;
+}
+
+.fourth-class {
+  background-color: #f5f4fa;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.fourth-class > h1 {
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer img[src="./img/WebStudio.png"] {
+  margin-top: 20px;
+  margin: 60px;
+}
+
+address {
+  gap: 5px;
+  margin: 60px;
+  color: white;
+}
+
+footer p {
+  gap: 5px;
+  margin: 60px;
+  opacity: 0.6;
+}
+.footer {
+  background-color: #2f303a;
+  padding: 40px 0;
+}
