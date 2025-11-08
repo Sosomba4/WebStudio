@@ -1,3 +1,11 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -10,26 +18,25 @@ header {
   gap: 50px;
 }
 
-.nav a {
-  text-decoration: none;
-}
-
 img[src="./img/WebStudio.png"] {
+  font-family: "Raleway", sans-serif;
   display: flex;
   width: 145px;
   height: auto;
 }
 
 .contact {
+  font-family: "Roboto", sans-serif;
   display: flex;
   gap: 50px;
 }
 .email {
+  font-family: "Roboto", sans-serif;
   display: flex;
   gap: 50px;
 }
 
-.main-section {
+.main_section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,18 +45,20 @@ img[src="./img/WebStudio.png"] {
   height: 100vh;
   background-color: #2f303a;
 }
-.main-title {
+.main_section-title {
   color: white;
   font-size: 65px;
+  font-family: "Roboto", sans-serif;
 }
 
-.main-button {
+.main_section-button {
   background-color: #2196f3;
   color: white;
   border: none;
   padding: 25px 40px;
   font-size: 20px;
   border-radius: 7px;
+  font-family: "Roboto", sans-serif;
 }
 
 h3 + p {
@@ -63,11 +72,12 @@ section + h3 {
   font-size: 28px;
 }
 
-.second-class {
+.second_class {
   height: 60vh;
   align-items: center;
   display: flex;
   gap: 5px;
+  font-family: "Roboto", sans-serif;
 }
 
 .pair {
@@ -76,30 +86,27 @@ section + h3 {
   gap: 0px;
 }
 
-.third-class > h1 {
+.third_class > h1 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 35px;
+  font-family: "Roboto", sans-serif;
 }
 
-.third-class img {
+.third_class img {
   margin-left: 53px;
 }
 
-.third-class {
+.third_class {
   height: 70vh;
 }
 
-.fourth-class {
+.fourth_class {
   background-color: #f5f4fa;
   text-align: center;
   padding: 40px 0;
-}
-
-.fourth-class > h1 {
-  margin-bottom: 40px;
-  font-size: 35px;
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
@@ -117,20 +124,29 @@ section + h3 {
 footer img[src="./img/WebStudio.png"] {
   margin-top: 20px;
   margin: 60px;
+  font-family: "Raleway", sans-serif;
 }
 
 address {
   gap: 5px;
   margin: 60px;
   color: white;
+  font: inherit;
 }
 
 footer p {
   gap: 5px;
   margin: 60px;
+  color: white;
   opacity: 0.6;
 }
+
 .footer {
   background-color: #2f303a;
   padding: 40px 0;
+}
+
+.email:hover {
+  color: #2196f3;
+  cursor: pointer;
 }
